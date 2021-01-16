@@ -1,0 +1,22 @@
+[gd_scene format=2]
+
+[node name="UI" type="CanvasLayer"]
+
+[node name="HBox" type="HBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+alignment = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBox" type="VBoxContainer" parent="HBox"]
+margin_left = 999.0
+margin_right = 1024.0
+margin_bottom = 600.0
+
+[node name="DebugInfo" type="Label" parent="HBox/VBox"]
+margin_right = 25.0
+margin_bottom = 14.0
+text = "test"
+align = 2
